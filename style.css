@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background-color: lightblue;
+    position: sticky;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 2px 10px rgba(0,0,0,0.4);
+}
+nav ul{
+    align-items: center;
+    list-style: none;
+    padding-right: 30px;
+}
+nav ul li{
+    font-weight: 500;
+    padding: 0 0 20px 20px;
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 30px;
+    display: inline;
+    text-decoration: none;
+    
+}
+.logo{
+    padding: 10px;
+}
+body{
+}
+.container{
+    top:80px;
+    margin: 30%;
+    margin-top: 50px;
+    width: 40%;
+    min-width: 500px;
+    background-color: white;
+    position: absolute;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+}
+.Th{
+    justify-content: space-between;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+label{
+    color: rgb(67, 63, 63);
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+}
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+input[type="date"],
+input[type="password"],
+input[input="confirm password"],
+select{
+    padding: 8px;
+    width: 350px;
+    min-width: auto;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+font-size: 20px;
+}
+select{
+    width:370px;
+    min-width: auto;
+
+}
+#add{
+    color:rgb(84, 67, 67);
+}
+input[type="submit"]{
+    color:black;
+    font-weight: 500;
+    width: 370px;
+    border: 0px;
+    background-color: rgb(36, 248, 50);
+}
+input[type="date"]{
+font-size: 20px;
+}
+.container5{
+    margin-left: 30%;
+    margin-top: 400px;
+    width: 40%;
+    min-width: 500px;
+    background-color: white;
+    position: absolute;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+    align-items:center ;
+}
+table{
+    padding: 15%;
+}
+table td{
+    font-size: 25px;
+}
+table th{
+    padding-bottom: 20px;
+    color:rgb(97, 91, 91)
+}
+#message{
+color: red;
+font-weight: 500;
+}
